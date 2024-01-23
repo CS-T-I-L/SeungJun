@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/leeseungjun/SeungJun/cmake-build-debug/
 
 build cmake_object_order_depends_target_SeungJun: phony || CMakeFiles/SeungJun.dir
 
-build CMakeFiles/SeungJun.dir/boj3085.cpp.o: CXX_COMPILER__SeungJun_unscanned_Debug /Users/leeseungjun/SeungJun/boj3085.cpp || cmake_object_order_depends_target_SeungJun
-  DEP_FILE = CMakeFiles/SeungJun.dir/boj3085.cpp.o.d
+build CMakeFiles/SeungJun.dir/jan_wk4/boj10870.cpp.o: CXX_COMPILER__SeungJun_unscanned_Debug /Users/leeseungjun/SeungJun/jan_wk4/boj10870.cpp || cmake_object_order_depends_target_SeungJun
+  DEP_FILE = CMakeFiles/SeungJun.dir/jan_wk4/boj10870.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SeungJun.dir
-  OBJECT_FILE_DIR = CMakeFiles/SeungJun.dir
+  OBJECT_FILE_DIR = CMakeFiles/SeungJun.dir/jan_wk4
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/SeungJun.dir/boj3085.cpp.o: CXX_COMPILER__SeungJun_unscanned_De
 #############################################
 # Link the executable SeungJun
 
-build SeungJun: CXX_EXECUTABLE_LINKER__SeungJun_Debug CMakeFiles/SeungJun.dir/boj3085.cpp.o
+build SeungJun: CXX_EXECUTABLE_LINKER__SeungJun_Debug CMakeFiles/SeungJun.dir/jan_wk4/boj10870.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/SeungJun.dir
   POST_BUILD = :

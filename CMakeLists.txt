@@ -3,4 +3,4 @@ project(SeungJun)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SeungJun boj3085.cpp)
+add_executable(SeungJun jan_wk4/boj10870.cpp)
