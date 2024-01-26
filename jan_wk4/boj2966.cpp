@@ -45,4 +45,4 @@ int main() {
         cout << "Bruno\n";
     if (max == goranScore)
         cout << "Goran\n";
-}
+}//aaa
