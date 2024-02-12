@@ -13,4 +13,4 @@ public class HelloController {
         //hello.html의 ${data}가 "hello"로 치환
         return "hello"; // controller에서 string을 리턴하면 resources:templates/{viewName}.html을 찾아가서 렌더링
     }
-}
+}  
